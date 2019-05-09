@@ -57,7 +57,9 @@ PRODUCT_PACKAGES += \
     OnePlus6Frameworks \
     OnePlus6SeriesBluetooth \
     OnePlus6SeriesFrameworks \
-    OnePlus6TFrameworks
+    OnePlus6SystemUI \
+    OnePlus6TFrameworks \
+    OnePlus6TSystemUI
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm845
