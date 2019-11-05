@@ -303,3 +303,9 @@ ro.location.osnlp.region.package=com.amap.android.location
 persist.netmon.linger=5000
 persist.vendor.ims.disableADBLogs=1
 #endif VENDOR_EDIT
+
+## CUSTOM PROPERTIES BELOW ##
+
+# Paranoid Doze
+ro.sensor.pickup=oneplus.sensor.pickup
+ro.sensor.pocket=oneplus.sensor.pocket
