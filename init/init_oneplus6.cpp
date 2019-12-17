@@ -54,6 +54,7 @@ void property_override(char const prop[], char const value[]) {
 void vendor_load_properties() {
   std::string variant = GetProperty(PROP_VARIANT, "");
   if (variant == "OnePlus6") {
+    property_override("ro.fingerprint.inscreen_disabled", "true");
     property_override("ro.product.device", "OnePlus6");
     property_override("ro.product.system.device", "OnePlus6");
     property_override("ro.product.system.model", "OnePlus 6");
