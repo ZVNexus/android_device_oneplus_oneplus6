@@ -37,6 +37,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     device/oneplus/oneplus6
 
+# Overlays
+PRODUCT_PACKAGES += \
+    OnePlus6SeriesBluetooth
+
 # Platform
 TARGET_BOARD_PLATFORM := sdm845
 
