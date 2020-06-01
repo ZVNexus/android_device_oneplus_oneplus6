@@ -14,8 +14,6 @@
 
 DEVICE_PATH := device/oneplus/oneplus6
 
-TARGET_BOARD_PLATFORM := sdm845
-
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS := \

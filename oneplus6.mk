@@ -37,6 +37,20 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     device/oneplus/oneplus6
 
+# Platform
+TARGET_BOARD_PLATFORM := sdm845
+
+# QTI
+TARGET_COMMON_QTI_COMPONENTS := \
+    audio \
+    av \
+    bt \
+    display \
+    gps \
+    perf \
+    telephony \
+    wfd
+
 # Update Engine
 PRODUCT_PACKAGES += \
     update_engine \
