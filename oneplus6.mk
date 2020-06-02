@@ -53,6 +53,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AOSPAOnePlus6SeriesSystemUI \
     OnePlus6SeriesBluetooth
 
 # Platform
