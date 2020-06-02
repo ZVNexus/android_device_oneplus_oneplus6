@@ -54,7 +54,10 @@ PRODUCT_SOONG_NAMESPACES += \
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPAOnePlus6SeriesSystemUI \
-    OnePlus6SeriesBluetooth
+    OnePlus6Frameworks \
+    OnePlus6SeriesBluetooth \
+    OnePlus6SeriesFrameworks \
+    OnePlus6TFrameworks
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm845
