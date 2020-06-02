@@ -31,6 +31,7 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
 
 # Init
 PRODUCT_PACKAGES += \
+    init.qcom.rc \
     init.recovery.qcom.rc
 
 # Namespaces
@@ -60,3 +61,6 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_engine_sideload \
     update_verifier
+
+# Vendor
+$(call inherit-product, vendor/oneplus/oneplus6/oneplus6-vendor.mk)
